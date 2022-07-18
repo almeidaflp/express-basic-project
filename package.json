@@ -1,0 +1,19 @@
+{
+  "name": "express-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "author": "Felipe Almeida",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "sucrase": "^3.24.0"
+  }
+}
